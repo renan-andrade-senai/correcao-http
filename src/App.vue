@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue';
-import Produto from './models/Produto';
+import type Produto from './models/Produto';
 import http from './http';
 import { AxiosError } from 'axios';
 
